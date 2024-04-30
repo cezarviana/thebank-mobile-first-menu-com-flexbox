@@ -1,0 +1,49 @@
+body{
+    font-family: Public Sans, sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 50px;
+}
+
+.the-bank-icon{
+    height: 45px;
+    margin-right: 5px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    font-size: 40px;
+    padding: 20px;
+    margin: 40px 10px; 
+}
+
+.menu li a {
+    padding: 20px 50px;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.menu li a.btn{
+    background-color: #5BC241;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
