@@ -1,4 +1,4 @@
-@media(min-width: 1020px){
+@media(min-width: 1040px){
 
 .header{
     display: flex;
@@ -8,6 +8,7 @@
 .logo{
     align-self: start;
     margin-right: 50px;
+    margin-left: 20px;
 }
 
 .menu{
