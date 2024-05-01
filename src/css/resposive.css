@@ -1,4 +1,4 @@
-@media(min-width: 890px){
+@media(min-width: 1020px){
 
 .header{
     display: flex;
@@ -18,11 +18,12 @@
     height: 50px;
     margin-top: 50px;
     font-size: 16px;
+    gap: 30px;
 }
 
 .menu li a{
-padding: 8px 10px;
-margin: 10px;
+    padding: 8px 10px;
+    margin: 10px;
 }
 
 .menu li a.btn{
